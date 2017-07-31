@@ -1,5 +1,10 @@
 # emacs-keys-everywhere
 
+[![Version](https://img.shields.io/pypi/v/emacs-keys-everywhere.svg)](https://pypi.python.org/pypi/emacs-keys-everywhere)
+[![pyversions](https://img.shields.io/pypi/pyversions/emacs-keys-everywhere.svg)](https://pypi.python.org/pypi/emacs-keys-everywhere)
+[![Downloads](https://www.cpu.re/static/emacs-keys-everywhere/downloads.svg)](https://www.cpu.re/static/emacs-keys-everywhere/downloads-by-python-version.txt)
+[![License](https://img.shields.io/badge/License-GPLv3+-blue.svg)](https://github.com/rahiel/emacs-keys-everywhere/blob/master/LICENSE.txt)
+
 Enable GNU Emacs style key bindings for GTK+ desktop programs.
 
 # Usage
