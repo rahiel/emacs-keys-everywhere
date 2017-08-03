@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import argparse
+import subprocess
 from configparser import ConfigParser
 from os import makedirs
 from os.path import exists, expanduser
@@ -22,7 +23,7 @@ try:
 except ImportError:             # Python < 3.5
     from subprocess import call as run
 
-__version__ = "0.1"
+__version__ = "0.2"
 
 
 def enable_gtk3():
@@ -54,7 +55,7 @@ def enable_gtk2():
 
 def run_anyway(*args, **kwargs):
     try:
-        run(*args, **kwargs)
+        run(*args, **kwargs, stderr=subprocess.DEVNULL)
     except FileNotFoundError:
         pass
 
