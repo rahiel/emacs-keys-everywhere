@@ -21,7 +21,7 @@ sudo pip3 install emacs-keys-everywhere
 
 (Follow [this guide][path] if you want to install without `sudo`.)
 
-[path]: https://www.cpu.re/installing-programs-from-non-system-package-managers-without-sudo/
+[path]: https://www.rahielkasim.com/installing-programs-from-non-system-package-managers-without-sudo/
 
 # References
 
